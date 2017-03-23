@@ -1,0 +1,88 @@
+2017-03-22 16:23:50 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2017-03-22 16:23:50 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2017-03-22 16:23:50 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://msmaster.qa.paypal.com:14607][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-03-22 16:23:50 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://msmaster.qa.paypal.com:14607][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-03-22 16:23:50 DEBUG MainClientExec:234 - Opening connection {s}->https://msmaster.qa.paypal.com:14607
+2017-03-22 16:23:50 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to msmaster.qa.paypal.com/10.57.18.78:14607
+2017-03-22 16:23:50 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to msmaster.qa.paypal.com/10.57.18.78:14607 with timeout 0
+2017-03-22 16:23:50 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1]
+2017-03-22 16:23:50 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2017-03-22 16:23:50 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2017-03-22 16:23:50 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2017-03-22 16:23:50 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1
+2017-03-22 16:23:50 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+2017-03-22 16:23:50 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=stage2_idealclient, OU=stage_certs, O="Paypal, Inc.", L=San Jose, ST=California, C=US
+2017-03-22 16:23:50 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [msmaster1int.qa.paypal.com, msmaster2int.qa.paypal.com, msmaster.qa.paypal.com, msrelease1int.qa.paypal.com, msrelease2int.qa.paypal.com, msrelease.qa.paypal.com, 10.57.18.82, 10.57.18.84, 10.57.18.78, 10.57.18.89, 10.57.18.90, 10.57.18.97]
+2017-03-22 16:23:50 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: EMAILADDRESS=DL-PP-ApplicationSecurity@paypal.com, CN=PayPal Appsec Crypto Mgt QA Intermediate CA, OU=PayPal Appsec Crypto Mgt, O="PayPal, Inc.", L=San Jose, ST=California, C=US
+2017-03-22 16:23:50 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 10.225.93.12:49349<->10.57.18.78:14607
+2017-03-22 16:23:50 DEBUG MainClientExec:255 - Executing request POST /realtimedataserv/v1/rtds/data/get HTTP/1.1
+2017-03-22 16:23:50 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2017-03-22 16:23:50 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2017-03-22 16:23:50 DEBUG headers:135 - http-outgoing-0 >> POST /realtimedataserv/v1/rtds/data/get HTTP/1.1
+2017-03-22 16:23:50 DEBUG headers:138 - http-outgoing-0 >> content-type: application/x-protobuf
+2017-03-22 16:23:50 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 28
+2017-03-22 16:23:50 DEBUG headers:138 - http-outgoing-0 >> Host: msmaster.qa.paypal.com:14607
+2017-03-22 16:23:50 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2017-03-22 16:23:50 DEBUG headers:138 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)
+2017-03-22 16:23:50 DEBUG headers:138 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 >> "POST /realtimedataserv/v1/rtds/data/get HTTP/1.1[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 >> "content-type: application/x-protobuf[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 28[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 >> "Host: msmaster.qa.paypal.com:14607[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.7.0_45)[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 >> "[\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 >> "[0x1a][\n]"
+2017-03-22 16:23:50 DEBUG wire:86 - http-outgoing-0 >> "[0xf]LIVE_DysonCache[0x12][0x7]ap_feb8"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "Server: Apache-Coyote/1.1[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "CORRELATION-ID: 9520c0ed1cde0[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "SERVER_INFO: stage2msmaster_realtimedataserv:ppaas_1_2.realtimedataserv.v1.rtds.data.get.POST&CalThreadId=348&TopLevelTxnStartTime=15af85565bf&Host=realtimedataserv-7513.ccg21.dev.paypalcorp.com&pid=26067[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "Content-Type: application/x-protobuf;charset=UTF-8[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 1040[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "Date: Wed, 22 Mar 2017 23:23:50 GMT[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "HTTP_X_PP_AZ_LOCATOR: msmaster.core[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "via: 1.1 PPFE[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "Date: Wed, 22 Mar 2017 23:23:50 GMT[\r][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2017-03-22 16:23:50 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 200 OK
+2017-03-22 16:23:50 DEBUG headers:127 - http-outgoing-0 << Server: Apache-Coyote/1.1
+2017-03-22 16:23:50 DEBUG headers:127 - http-outgoing-0 << CORRELATION-ID: 9520c0ed1cde0
+2017-03-22 16:23:50 DEBUG headers:127 - http-outgoing-0 << SERVER_INFO: stage2msmaster_realtimedataserv:ppaas_1_2.realtimedataserv.v1.rtds.data.get.POST&CalThreadId=348&TopLevelTxnStartTime=15af85565bf&Host=realtimedataserv-7513.ccg21.dev.paypalcorp.com&pid=26067
+2017-03-22 16:23:50 DEBUG headers:127 - http-outgoing-0 << Content-Type: application/x-protobuf;charset=UTF-8
+2017-03-22 16:23:50 DEBUG headers:127 - http-outgoing-0 << Content-Length: 1040
+2017-03-22 16:23:50 DEBUG headers:127 - http-outgoing-0 << Date: Wed, 22 Mar 2017 23:23:50 GMT
+2017-03-22 16:23:50 DEBUG headers:127 - http-outgoing-0 << HTTP_X_PP_AZ_LOCATOR: msmaster.core
+2017-03-22 16:23:50 DEBUG headers:127 - http-outgoing-0 << via: 1.1 PPFE
+2017-03-22 16:23:50 DEBUG headers:127 - http-outgoing-0 << Date: Wed, 22 Mar 2017 23:23:50 GMT
+2017-03-22 16:23:50 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0x8d][0x8][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0xf]LIVE_DysonCache[0x12][0xf9][0x7][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0x7]ap_feb8[0x12][0xeb][0x7][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "$f298fe97-37f8-4744-b47e-3a234873b15c[0x12]$12345678-f9e9-11e0-be50-0800200c9a44[0x19][0xb7][0xee][0xe6][0xa9][0xe]{^[0xc0]![0x9d][0xa1][0xb8][0xe3]M[0xb0]B@([0xcd][0x88][0xad][0xcc][0xb1]&2[0x7]Android:[0x5]2.3.6@[0xb3][0x9a][0x83][0xc2][0xaf]+J[0x5]25771R[0xf]123456789123456Z[0x12]Fran[0xc3][0xa7]ois iPhone6Sb/com.ebay.mobile/com.ebay.mobile.activities.eBayj[\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "4081234567r[0x2]USz[0x2]en[0x82][0x1][0x2]32[0xa2][0x1]$65a05f2b-f9e9-11e0-be50-0800200c9a66[0xda][0x1][0x1c]com.paypal.android.p2pmobile[0x92][0x2][0x5]3.4.8[0x98][0x2][0xef][0x2][0xa2][0x2][0x3]1.0[0xaa][0x2][0x7]Nexus S[0xc2][0x2][0x4]cdma[0xd0][0x2][0xf2][0xc5][0xa1][0x16][0xe0][0x2][0xb8]j[0xea][0x2][0x4]full[0xf0][0x2][0x1][0xaa][0x3][0x3]USA[0xb2][0x3][0x1c][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0x11]remote_ip_address[0x12][0x7]8.8.8.1[0xb2][0x3][0x1f][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0xe]lastInsertTime[0x12][\r]1490223679834[0xb2][0x3]([\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0x13]base_service_set_id[0x12][0x11]00:1a:1e:de:12:01[0xb2][0x3][0x17][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0xf]connection_type[0x12][0x4]wifi[0xb2][0x3][0x17][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0x4]ipV6[0x12][0xf]2:0:0:0:0:0:0:1[0xb2][0x3][0x1a][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0xf]ipV6_first_four[0x12][0x7]2:0:0:0[0xb2][0x3]([\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0xf]library_version[0x12][0x15]Dyson/3.3.1 (iOS 8.4)[0xb2][0x3])[\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0x5]dc_id[0x12] 77a6a938a0f86aa8844156b31d409768[0xb2][0x3]/[\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0x7]rdauuid[0x12]$5b2c0d0a-043f-4b85-a31a-cf668231b978[0xb2][0x3][0x14][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0xc]ip_addresses[0x12][0x4]2::1[0xb2][0x3]'[\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0xe]time_zone_name[0x12][0x15]Pacific Standard Time[0xb2][0x3]![\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0x1d]known_installed_apps_extended[0x12][0x0][0xb2][0x3] [\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0xb]mac_address[0x12][0x11]B4:07:F9:E5:A6:8C[0xb2][0x3][0x15][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "pairing_id[0x12][0x7]ap_feb8[0xb2][0x3][0x12][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[\r]checksum_flag[0x12][0x1]1[0xb2][0x3][0x19][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0xe]ipV6_last_four[0x12][0x7]0:0:0:1[0xb2][0x3]+[\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0x1b]base_service_set_id_numeric[0x12][0xc]112187019777[0xb2][0x3][0x1b][\n]"
+2017-03-22 16:23:50 DEBUG wire:72 - http-outgoing-0 << "[0xe]service_set_id[0x12][0x9]eBayGuest[0xb2][0x3][0x10][\n]"
+2017-03-22 16:23:50 DEBUG wire:86 - http-outgoing-0 << "[0xb]customer_id[0x12][0x1]0[0x18][0x1]"
+2017-03-22 16:23:50 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {s}->https://msmaster.qa.paypal.com:14607] can be kept alive indefinitely
+2017-03-22 16:23:50 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://msmaster.qa.paypal.com:14607][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]

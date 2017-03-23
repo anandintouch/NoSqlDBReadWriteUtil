@@ -1,0 +1,28 @@
+{
+  "additional_data": [
+    {
+      "key":"sender_account_id",
+      "value":"A123456789"
+    },
+    {
+      "key":"sender_email",
+      "value":"sender@paypal.com"
+    },
+    {
+      "key":"sender_phone",
+      "value":"408-967-1234"
+    },
+    {
+      "key":"receiver_account_id",
+      "value":"B123456789"
+    },
+    {
+      "key":"receiver_email",
+      "value":"receiver@paypal.com"
+    },
+    {
+      "key":"receiver_phone",
+      "value":"408-967-1234"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.paypal.risk.identity</groupId>
+    <artifactId>rda-utils</artifactId>
+    <version>1.209.7-p241-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <description>
+        RDA utilities client code
+    </description>
+
+    <developers>
+        <developer>
+            <id>rda</id>
+            <name>RDA</name>
+            <email>DL-PP-Risk-Data-Acquisition@paypal.com</email>
+            <organization>Paypal</organization>
+            <organizationUrl>http://www.paypal.com</organizationUrl>
+        </developer>
+    </developers>
+
+    <properties>
+        <jaxrsApiVersion>2.0</jaxrsApiVersion>
+    </properties>
+
+    <scm>
+        <developerConnection>scm:git:ssh://git@github.paypal.com/Risk-R/rda-java-client.git</developerConnection>
+        <connection>git@github.paypal.com:Risk-R/rda-java-client.git</connection>
+        <url>https://github.paypal.com/Risk-R/rda-java-client</url>
+    </scm>
+
+    <modules>
+        <module>rda-reader</module>
+        <module>rda-writer</module>
+        <module>rda-util-test</module>
+    </modules>
+        <profiles>
+           <profile>
+                <id>raptor</id>
+                <distributionManagement>
+                    <repository>
+                        <id>raptor.releases</id>
+                        <uniqueVersion>true</uniqueVersion>
+                        <url>https://paypalcentral.es.paypalcorp.com/nexus/content/repositories/releases/</url>
+                    </repository>
+                    <snapshotRepository>
+                        <id>raptor.snapshots</id>
+                        <url>https://paypalcentral.es.paypalcorp.com/nexus/content/repositories/snapshots/</url>
+                    </snapshotRepository>
+                </distributionManagement>
+            </profile>
+            <profile>
+                <id>helix</id>
+                <activation>
+                    <activeByDefault>true</activeByDefault>
+                </activation>
+                <distributionManagement>
+                    <repository>
+                        <id>releases</id>
+                        <uniqueVersion>true</uniqueVersion>
+                        <url>http://nexus.paypal.com/nexus/content/repositories/releases/</url>
+                    </repository>
+                    <snapshotRepository>
+                        <id>snapshot</id>
+                        <uniqueVersion>false</uniqueVersion>
+                        <url>http://nexus.paypal.com/nexus/content/repositories/snapshots/</url>
+                    </snapshotRepository>
+                </distributionManagement>
+            </profile>
+        </profiles>
+</project>

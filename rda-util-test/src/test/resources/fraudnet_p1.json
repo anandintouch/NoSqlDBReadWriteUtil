@@ -1,0 +1,60 @@
+{
+    "navigator": {
+        "appCodeName": "Mozilla",
+        "appName": "Netscape",
+        "appVersion": "5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36",
+        "cookieEnabled": true,
+        "language": null,
+        "onLine": true,
+        "platform": "MacIntel",
+        "product": "Gecko",
+        "productSub": "20030107",
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36",
+        "vendor": "Google Inc.",
+        "vendorSub": ""
+    },
+    "screen": {
+        "colorDepth": 24,
+        "pixelDepth": 24,
+        "height": 900,
+        "width": 1440,
+        "availHeight": 824,
+        "availWidth": 1440
+    },
+    "window": {
+        "outerHeight": 747,
+        "outerWidth": 1266,
+        "innerHeight": 0,
+        "innerWidth": 0,
+        "devicePixelRatio": 2
+    },
+    "rvr": "A9oSbu2sLS8s",
+    "activeXDefined": false,
+    "flashVersion": {
+        "major": 18,
+        "minor": 0,
+        "release": 0
+    },
+    "tz": -25200000,
+    "tzName": "America/Los_Angeles",
+    "time": 1437758858213,
+    "pt1": {
+        "pp1": "96.00",
+        "i": "82.00"
+    },
+    "postStep": 1,
+    "timeCreated": 1437758858233,
+    "referer": "http://www.google.com",
+    "clockSkew": 20,
+    "reqUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.134 Safari/537.36",
+    "userAgent": {
+        "reqUaBrowserMajorVersionNum": "43",
+        "reqUaBrowserName": "Chrome",
+        "reqUaBrowserVersionNum": "43.0.2357.134",
+        "reqUaDeviceName": "",
+        "reqUaOSMajorVersionNum": "10",
+        "reqUaOSName": "OS X",
+        "reqUaOSVersionNum": "10.10.4",
+        "reqUaType": "Browser"
+    }
+}

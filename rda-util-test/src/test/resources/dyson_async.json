@@ -1,0 +1,39 @@
+{
+    "app_guid": "f298fe97-37f8-4744-b47e-3a234873b15c",
+    "app_id": "com.paypal.android.p2pmobile",
+    "app_version": "1.0",
+    "bssid": "00:1a:1e:de:12:01",
+    "cell_id": 25771,
+    "comp_version": "1.0.0",
+    "conn_type": "wifi",
+    "device_id": "123456789123456",
+    "device_model": "Nexus S",
+    "device_name": "François iPhone6S",
+    "device_uptime": 46686962,
+    "unique_device_id":"87df8211-8a33-e0e2-46d2-86692b696495",
+    "ip_addresses": ["2::1"],
+    "known_apps": [
+        "com.ebay.mobile/com.ebay.mobile.activities.eBay"
+    ],
+    "line_1_number": "4081234567",
+    "linker_id": "12345678-f9e9-11e0-be50-0800200c9a44",
+    "locale_country": "US",
+    "locale_lang": "en",
+    "location": {
+        "acc": 32,
+        "lng": -121.9227641,
+        "lat": 37.3773762
+    },
+    "location_area_code": 367,
+    "mac_addrs": "B4:07:F9:E5:A6:8C",
+    "os_type": "Android",
+    "os_version": "2.3.6",
+    "payload_type": "full",
+    "phone_type": "cdma",
+    "risk_comp_session_id": "65a05f2b-f9e9-11e0-be50-0800200c9a66",
+    "sms_enabled": true,
+    "ssid": "eBayGuest",
+    "timestamp": 1318983517261,
+    "total_storage_space": 13624,
+    "tz_name": "Pacific Standard Time"
+}

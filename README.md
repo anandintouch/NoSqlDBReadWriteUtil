@@ -1,35 +1,4 @@
-# rda-java-client
-##Notes:
-* This library requires rtds-client 1.2 or later. Please check the release notes for the RTDS version that is supported for each rda-reader version. [Of note: We've switched to the rtds-basic api, so hopefully RTDS versions won't be an issue going forward]
-* We're importing protobuf libraries from the protobuf-schema library generated in RCMD. If your library already includes tsa-persistence, we recommend removing that and getting the protobuf objects from this client.
-  * While we're on the topic of protobuf, our objects are currently using the following protobuf versions:
-    * Helix: 2.4.1
-    * Raptor: 2.4.1, 2.6.1
-* Feel like something is missing or incorrect? Send us a note at DL-PP-Risk-Data-Acquisition@paypal.com
-
-##Usage :
-
-**Read**
-
-	Fraudnet.Builder fnBuilder = new Fraudnet().newBuilder()
-                .riskClientMetadataId("foo")
-                .gsid("bar");
-	Dyson.Builder dyBuilder = new Dyson().newBuilder()
-                .riskClientMetadataId("12345678")
-                .gsid("bar")
-                .alternateId("baz");
-        SetTxnContext.Builder stcBuilder = new SetTxnContext().newBuilder()
-                .trackingId("foobar");
-	RDAReader reader = new RDAReader();
-	reader.setRtdsClient(client);
-	RDAResult result = reader.find(fnBuilder, dyBuilder, stcBuilder);
-
-	if ( result.dataFound() ) {
-		RiskClientDataEventVO fraudnetData = result.fraudnet();
-		JSONObject dyson = result.dyson();
-                JSONObject stc = result.stc();
-	}
-
+# NOSQL Read and Write Interface
 
 ----------
 
